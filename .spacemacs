@@ -1,3 +1,4 @@
+(setq-default dotspacemacs-configuration-layers '(work))
 (setq-default dotspacemacs-themes '(zenburn))
 
 (custom-set-variables
