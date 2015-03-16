@@ -1,4 +1,4 @@
-(setq-default dotspacemacs-default-theme 'zenburn)
+(setq-default dotspacemacs-themes '(zenburn))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
