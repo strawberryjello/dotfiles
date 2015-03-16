@@ -1,5 +1,9 @@
 (setq-default dotspacemacs-configuration-layers '(work))
+
 (add-to-list 'load-path "~/.emacs.d/private/work/org-8.2.10/lisp")
+(add-to-list 'load-path "~/.emacs.d/private/work/org-8.2.10/contrib/lisp")
+(require 'ox-s5)
+
 (setq-default dotspacemacs-themes '(zenburn))
 
 (custom-set-variables
