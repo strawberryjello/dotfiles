@@ -1,0 +1,22 @@
+! mappings for left Control:
+! Caps Lock
+! left Alt
+remove Lock = Caps_Lock
+remove Mod1 = Alt_L
+keysym Caps_Lock = Control_L
+keysym Alt_L = Control_L
+add Control = Control_L
+
+! map left Alt to Windows key
+remove Mod4 = Super_L
+keysym Super_L = Alt_L
+add Mod1 = Alt_L
+
+! map right Control to right Alt
+remove Mod1 = Alt_R
+keysym Alt_R = Control_R
+add Control = Control_R
+
+! map right Menu to right Alt
+keysym Menu = Alt_R
+add Mod1 = Alt_R
