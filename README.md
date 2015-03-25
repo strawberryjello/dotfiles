@@ -39,11 +39,11 @@ The `work` directory contains a config layer with its own `packages.el` and `ext
 
 1. Create a symlink for `work` in `.emacs.d/private`.
 
-Example: `ln -sv dotfiles/work`
+   Example: `ln -sv dotfiles/work`
 
 2. Add `work` to the list of config layers in `.spacemacs`.
 
-Example: `(setq-default dotspacemacs-configuration-layers '(work))`
+   Example: `(setq-default dotspacemacs-configuration-layers '(work))`
 
 
 ### Org installation
@@ -60,11 +60,11 @@ To install a new version of Org:
 
 2. Add the `org-x.x.xx/lisp` directory to the load path in `.spacemacs`:
 
-Example: `(add-to-list 'load-path "~/.emacs.d/private/work/org-8.2.10/lisp")`
+   Example: `(add-to-list 'load-path "~/.emacs.d/private/work/org-8.2.10/lisp")`
 
 3. To load Org contributions, add the `org-x.x.xx/contrib/lisp` directory to the load path in `.spacemacs`:
 
-Example: `(add-to-list 'load-path "~/.emacs.d/private/work/org-8.2.10/contrib/lisp")`
+   Example: `(add-to-list 'load-path "~/.emacs.d/private/work/org-8.2.10/contrib/lisp")`
 
 Packages in `contrib` apparently aren't loaded by default; they have to be required in `.spacemacs`:
 
