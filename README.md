@@ -77,4 +77,6 @@ Example: `(require 'ox-s5)`
 
 Create a symlink for `.spacemacs` in `/home/<user>`.
 
+Note: For OS X, symlink `spacemacs-mac/.spacemacs`.
+
 Example: `ln -sv dotfiles/.spacemacs`
