@@ -14,6 +14,7 @@
   '(
     ;; package works go here
     haml-mode
+    magit
     web-mode
     )
   "List of all packages to install and/or initialize. Built-in packages
