@@ -1,5 +1,15 @@
 # dotfiles
 
+## .tmux.conf
+
+Configuration for tmux. Work in progress.
+
+### References
+
+* [Arch Linux wiki page for tmux](https://wiki.archlinux.org/index.php/Tmux)
+* [Learn X in Y minutes: tmux](http://learnxinyminutes.com/docs/tmux/)
+
+
 ## .bashrc-aliases
 
 This file contains the shortcuts I commonly use in day-to-day development.
