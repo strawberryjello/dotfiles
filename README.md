@@ -1,5 +1,10 @@
 # dotfiles
 
+## .vimrc
+
+Trying out a Rails setup for Vim. Work in progress.
+
+
 ## .tmux.conf
 
 Configuration for tmux. Work in progress.
@@ -12,7 +17,7 @@ Configuration for tmux. Work in progress.
 
 ## .bashrc-aliases
 
-This file contains the shortcuts I commonly use in day-to-day development.
+This file contains the shortcuts I used in day-to-day development. No longer in use because I'm trying out oh-my-zsh.
 
 
 ## .Xmodmap
