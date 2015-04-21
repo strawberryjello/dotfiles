@@ -1,5 +1,10 @@
 # dotfiles
 
+## .zshrc
+
+Currently trying out [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) on a Mac. See the [oh-my-zsh cheatsheet](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet) for the list of aliases provided.
+
+
 ## .vimrc
 
 Trying out a Rails setup for Vim. Work in progress.
