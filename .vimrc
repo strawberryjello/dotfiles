@@ -6,6 +6,16 @@ set expandtab
 set tabstop=2 shiftwidth=2 softtabstop=2
 set autoindent
 
+" display statusline all the time
+set laststatus=2
+
+" enable 256 colors
+set t_Co=256
+
+" airline configs
+let g:airline_powerline_fonts=1
+let g:airline#extensions#tabline#enabled=1
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -23,6 +33,9 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'
 Plugin 'Shougo/unite.vim'
+
+" statusline integrated with other plugins, also with themes
+Plugin 'bling/vim-airline'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

@@ -9,6 +9,12 @@ Currently trying out [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) on a
 
 Trying out a Rails setup for Vim. Work in progress.
 
+### vim-airline
+
+See the [GitHub repo readme](https://github.com/bling/vim-airline) and [FAQ](https://github.com/bling/vim-airline/wiki/FAQ) for installation and configuration instructions.
+
+For the Powerline fonts, clone [the GitHub repo](https://github.com/powerline/fonts) and install by running `./install.sh`. On iTerm2 (OS X), set the Regular and Non-ASCII fonts (`iTerm > Preferences > <choose your profile> > Text tab`) to one of the patched Powerline fonts.
+
 
 ## .tmux.conf
 
