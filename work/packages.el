@@ -14,6 +14,7 @@
   '(
     ;; package works go here
     haml-mode
+    markdown-mode
     web-mode
     )
   "List of all packages to install and/or initialize. Built-in packages
@@ -34,6 +35,9 @@ which require an initialization must be listed explicitly in the list.")
 
 (defun work/init-haml-mode ()
   (use-package haml-mode))
+
+(defun work/init-markdown-mode ()
+  (use-package markdown-mode))
 
 (defun work/init-web-mode ()
   (use-package web-mode))
