@@ -84,5 +84,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias mpl='mplayer -novideo -volume 4 -shuffle -playlist'
+alias mpsingle='mplayer -novideo -volume 4'
+
 # the ff is supposed to invoke GUI mode, but it still doesn't work
-alias ec=/usr/local/Cellar/emacs-mac/emacs-24.5-rc3-mac-5.6/bin/emacsclient -c
+alias ec='/usr/local/Cellar/emacs-mac/emacs-24.5-rc3-mac-5.6/bin/emacsclient -c'
