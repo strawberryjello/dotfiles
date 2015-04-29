@@ -2,8 +2,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 syntax on                     " enable syntax highlighting
 
-set expandtab
-set tabstop=2 shiftwidth=2 softtabstop=2
+set expandtab shiftwidth=2 softtabstop=2
 set autoindent
 
 " display statusline all the time
@@ -33,6 +32,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'
 Plugin 'Shougo/unite.vim'
+Plugin 'bronson/vim-trailing-whitespace'
 
 " statusline integrated with other plugins, also with themes
 Plugin 'bling/vim-airline'

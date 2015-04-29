@@ -28,7 +28,7 @@ For the plugins:
 1. Install [Vundle](https://github.com/gmarik/Vundle.vim) by cloning it into `~/.vim/bundle/Vundle.vim` (see the Vundle readme for more details).
 
 2. Install the plugins by running:
-   - within Vim: `:PluginInstall`
+   - within Vim: `:PluginInstall` (run `:source %` first if editing `.vimrc` in `vim`)
    - on the command line: `vim +PluginInstall +qall`
 
 
@@ -37,6 +37,27 @@ For the plugins:
 See the [GitHub repo readme](https://github.com/bling/vim-airline) and [FAQ](https://github.com/bling/vim-airline/wiki/FAQ) for installation and configuration instructions.
 
 For the Powerline fonts, clone [the GitHub repo](https://github.com/powerline/fonts) and install by running `./install.sh`. On iTerm2 (OS X), set the Regular and Non-ASCII fonts (`iTerm > Preferences > <choose your profile> > Text tab`) to one of the patched Powerline fonts.
+
+
+### Color schemes
+
+Preinstalled color schemes are located in `/usr/share/vim/vimXX/colors`. Available color schemes can be cycled through by running `:colorscheme<space><Tab>` then hitting `<Tab>` repeatedly.
+
+To install a new color scheme:
+
+1. Create a `colors` directory in `~/.vim`
+
+2. Download a color scheme from [vimcolors.com](http://vimcolors.com/) or similar and save the `.vim` file in `~/.vim/colors`
+
+3. Include the line `colorscheme <scheme_name>` in `.vimrc` (or temporarily try a color scheme by running `:colorscheme <scheme_name>`)
+
+
+### References
+
+* http://vim.wikia.com/wiki/Indenting_source_code
+* http://vim.wikia.com/wiki/Converting_tabs_to_spaces
+* http://vim.wikia.com/wiki/Change_the_color_scheme
+* http://vim.wikia.com/wiki/Switch_color_schemes
 
 
 ## .tmux.conf
