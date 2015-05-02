@@ -15,6 +15,8 @@ set t_Co=256
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1
 
+colorscheme elflord
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
