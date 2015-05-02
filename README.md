@@ -36,7 +36,9 @@ For the plugins:
 
 See the [GitHub repo readme](https://github.com/bling/vim-airline) and [FAQ](https://github.com/bling/vim-airline/wiki/FAQ) for installation and configuration instructions.
 
-For the Powerline fonts, clone [the GitHub repo](https://github.com/powerline/fonts) and install by running `./install.sh`. On iTerm2 (OS X), set the Regular and Non-ASCII fonts (`iTerm > Preferences > <choose your profile> > Text tab`) to one of the patched Powerline fonts.
+For the Powerline fonts, clone [the GitHub repo](https://github.com/powerline/fonts) and install by running `./install.sh`. Afterwards set your terminal's font to one of the patched fonts:
+  - On OS X iTerm2: set the Regular and Non-ASCII fonts in `iTerm > Preferences > <choose your profile> > Text tab`
+  - On Ubuntu (Trusty) terminal: set the Font in `Edit > Profile Preferences > General tab`
 
 
 ### Color schemes
