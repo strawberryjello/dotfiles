@@ -19,6 +19,8 @@ colorscheme elflord
 
 let mapleader=","
 
+nnoremap <Space> <C-W>
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
