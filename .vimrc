@@ -17,6 +17,8 @@ let g:airline#extensions#tabline#enabled=1
 
 colorscheme elflord
 
+let mapleader=","
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -33,8 +35,14 @@ Plugin 'tpope/vim-fugitive'
 
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'
-Plugin 'Shougo/unite.vim'
 Plugin 'bronson/vim-trailing-whitespace'
+
+" Unite and other related plugins
+Plugin 'Shougo/unite.vim'
+Plugin 'Shougo/vimproc.vim', { 'do': 'make' }
+Plugin 'rstacruz/vim-fastunite'
+Plugin 'Shougo/neomru.vim'
+Plugin 'Shougo/unite-outline'
 
 " statusline integrated with other plugins, also with themes
 Plugin 'bling/vim-airline'

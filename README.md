@@ -41,6 +41,15 @@ For the Powerline fonts, clone [the GitHub repo](https://github.com/powerline/fo
   - On Ubuntu (Trusty) terminal: set the Font in `Edit > Profile Preferences > General tab`
 
 
+### unite.vim and related plugins
+
+See the [vim-fastunite installation instructions](https://github.com/rstacruz/vim-fastunite) for the list of plugin dependencies. Among the recommended plugins, I left out [unite-tag](https://github.com/tsukkee/unite-tag) because I couldn't think of a use for it yet.
+
+On OS X, I also installed [the_silver_searcher](https://github.com/ggreer/the_silver_searcher) via Homebrew to speed up grep.
+
+Note: Leader key is currently set to `,`.
+
+
 ### Color schemes
 
 Preinstalled color schemes are located in `/usr/share/vim/vimXX/colors`. Available color schemes can be cycled through by running `:colorscheme<space><Tab>` then hitting `<Tab>` repeatedly.
@@ -60,6 +69,8 @@ To install a new color scheme:
 * http://vim.wikia.com/wiki/Converting_tabs_to_spaces
 * http://vim.wikia.com/wiki/Change_the_color_scheme
 * http://vim.wikia.com/wiki/Switch_color_schemes
+* Mapping keys in Vim: [part 1](http://vim.wikia.com/wiki/Mapping_keys_in_Vim_-_Tutorial_%28Part_1%29), [part 2](http://vim.wikia.com/wiki/Mapping_keys_in_Vim_-_Tutorial_%28Part_2%29), [part 3](http://vim.wikia.com/wiki/Mapping_keys_in_Vim_-_Tutorial_%28Part_3%29)
+* [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/)
 
 
 ## .tmux.conf
