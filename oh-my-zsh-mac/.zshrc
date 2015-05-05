@@ -45,7 +45,7 @@ DISABLE_AUTO_TITLE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git tmux)
+plugins=(git)
 
 # User configuration
 
@@ -54,8 +54,8 @@ export PATH="/Users/tina/.rbenv/shims:/Users/tina/.rbenv/bin:/usr/local/bin:/usr
 
 # make sure this comes before source $ZSH/oh-my-zsh.sh
 # tmux plugin config
-ZSH_TMUX_AUTOSTART=true
-ZSH_TMUX_AUTOCONNECT=false
+#ZSH_TMUX_AUTOSTART=true
+#ZSH_TMUX_AUTOCONNECT=false
 
 source $ZSH/oh-my-zsh.sh
 

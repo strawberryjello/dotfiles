@@ -12,7 +12,9 @@ Note: The `.zshrc` file in this repo has only a few modifications from the one g
 
 ### Plugins
 
-I noticed that the variables for the `tmux` plugin must be specified before the line `source $ZSH/oh-my-zsh.sh` in order for them to be applied. This may be the same for other plugins.
+I stopped using the `tmux` plugin since I no longer need it. However, I left the (commented out) variables with notes in `.zshrc` for reference.
+
+Note: I noticed that the variables for the `tmux` plugin must be specified before the line `source $ZSH/oh-my-zsh.sh` in order for them to be applied. This may be the same for other plugins.
 
 
 ## .vimrc
