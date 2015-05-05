@@ -71,6 +71,7 @@ To install a new color scheme:
 * http://vim.wikia.com/wiki/Converting_tabs_to_spaces
 * http://vim.wikia.com/wiki/Change_the_color_scheme
 * http://vim.wikia.com/wiki/Switch_color_schemes
+* http://vim.wikia.com/wiki/Find_in_files_within_Vim (`:grep` et al)
 * Mapping keys in Vim: [part 1](http://vim.wikia.com/wiki/Mapping_keys_in_Vim_-_Tutorial_%28Part_1%29), [part 2](http://vim.wikia.com/wiki/Mapping_keys_in_Vim_-_Tutorial_%28Part_2%29), [part 3](http://vim.wikia.com/wiki/Mapping_keys_in_Vim_-_Tutorial_%28Part_3%29)
 * [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/)
 
@@ -88,6 +89,7 @@ Create a symlink for `.tmux.conf` in `/home/<user>`.
 
 * [Arch Linux wiki page for tmux](https://wiki.archlinux.org/index.php/Tmux)
 * [Learn X in Y minutes: tmux](http://learnxinyminutes.com/docs/tmux/)
+* [tmux cheatsheet gist](https://gist.github.com/MohamedAlaa/2961058)
 
 
 ## .bashrc-aliases
@@ -137,7 +139,7 @@ The `work` directory contains a config layer with its own `packages.el` and `ext
 
 3. Spacemacs will automatically download and install any new packages after startup. Make sure to define a `work/init-<package>` function for each package in `packages.el`. If there are no customizations to be made, simply calling `(use-package <package>)` within the function is enough. (See [use-package](https://github.com/jwiegley/use-package) for more details on usage.)
 
-   Example: 
+   Example:
 
    ```
    (defun work/init-haml-mode ()
