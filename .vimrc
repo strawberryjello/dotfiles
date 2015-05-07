@@ -5,11 +5,14 @@ syntax on                     " enable syntax highlighting
 set expandtab shiftwidth=2 softtabstop=2
 set autoindent
 
-" display statusline all the time
-set laststatus=2
-
 " enable 256 colors
 set t_Co=256
+
+" display line numbers
+set number
+
+" display statusline all the time
+set laststatus=2
 
 " airline configs
 let g:airline_powerline_fonts=1
@@ -17,8 +20,10 @@ let g:airline#extensions#tabline#enabled=1
 
 colorscheme elflord
 
+" set leader key
 let mapleader=","
 
+" add <Space> as an alternative to <C-W>
 nnoremap <Space> <C-W>
 
 " set the runtime path to include Vundle and initialize
