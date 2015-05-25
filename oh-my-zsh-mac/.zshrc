@@ -52,7 +52,11 @@ plugins=(git)
 export PATH="/Users/tina/.rbenv/shims:/Users/tina/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin:/Users/tina/bin:/usr/local/mysql/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
+# required by Rails 2.3.8
 export DYLD_LIBRARY_PATH="/usr/local/mysql/lib"
+
+# required by tmuxinator
+export EDITOR="vim"
 
 # make sure this comes before source $ZSH/oh-my-zsh.sh
 # tmux plugin config
