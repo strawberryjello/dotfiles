@@ -84,12 +84,26 @@ Configuration for tmux. Work in progress.
 
 Create a symlink for `.tmux.conf` in `/home/<user>`.
 
-
 ### References
 
 * [Arch Linux wiki page for tmux](https://wiki.archlinux.org/index.php/Tmux)
 * [Learn X in Y minutes: tmux](http://learnxinyminutes.com/docs/tmux/)
 * [tmux cheatsheet gist](https://gist.github.com/MohamedAlaa/2961058)
+
+
+## tmuxinator
+
+tmux session layouts that I use at work.
+
+### Setup
+
+Create a symlink for each project file in the `tmuxinator` directory in `/home/<user>/.tmuxinator`.
+
+Note: Project files generated using `tmuxinator open <filename>` will be saved in `/home/<user>/.tmuxinator` by default.
+
+### References
+
+* [tmuxinator readme](https://github.com/tmuxinator/tmuxinator)
 
 
 ## .bashrc-aliases
