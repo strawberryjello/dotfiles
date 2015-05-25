@@ -45,11 +45,23 @@ For the Powerline fonts, clone [the GitHub repo](https://github.com/powerline/fo
 
 ### unite.vim and related plugins
 
-See the [vim-fastunite installation instructions](https://github.com/rstacruz/vim-fastunite) for the list of plugin dependencies. Among the recommended plugins, I left out [unite-tag](https://github.com/tsukkee/unite-tag) because I couldn't think of a use for it yet.
+See the [vim-fastunite installation instructions](https://github.com/rstacruz/vim-fastunite) for the list of plugin dependencies.
 
 On OS X, I also installed [the_silver_searcher](https://github.com/ggreer/the_silver_searcher) via Homebrew to speed up grep.
 
 Note: Leader key is currently set to `,`.
+
+#### TODO
+
+* Set up [exuberant ctags](http://ctags.sourceforge.net/)
+  - OS X: `brew install ctags`
+* Install the [unite-tag](https://github.com/tsukkee/unite-tag) plugin
+
+Tutorials:
+
+* [Supercharge your Vim into an IDE with ctags](http://blog.sensible.io/2014/05/09/supercharge-your-vim-into-ide-with-ctags.html)
+* [Vim and ctags](http://andrew.stwrt.ca/posts/vim-ctags/)
+* [Navigate code like a pro with ctags](http://ricostacruz.com/til/navigate-code-with-ctags.html)
 
 
 ### Color schemes
