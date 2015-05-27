@@ -172,13 +172,15 @@ The `work` directory contains a config layer with its own `packages.el` and `ext
      (use-package haml-mode))
    ```
 
-### Org installation
+### Org mode
 
-I manually installed Org (8.2.10 as of this writing) to get the latest version, since the version in MELPA seems to be outdated.
+I found out that [emacs-mac-port](https://github.com/railwaycat/emacs-mac-port/), which ports Emacs 24.5, contains the latest stable version of Org, which is 8.2.10 as of October 2014 according to the Org main page. However, it still doesn't contain the `contrib` packages, so I'll leave the instructions for manual installation here.
+
+As for Spacemacs, the current version I've got installed (0.101.5, commit 94d6b65) has spun out Org into its own layer, so I've added `org` to the list of layers in `.spacemacs`.
+
+#### Manual installation
 
 The `org-8.2.10` directory is currently located in the `work` private config layer. In the future it could be moved into its own private config layer for modularity.
-
-#### Setup
 
 To install a new version of Org:
 
@@ -188,13 +190,15 @@ To install a new version of Org:
 
    Example: `(add-to-list 'load-path "~/.emacs.d/private/work/org-8.2.10/lisp")`
 
-3. To load Org contributions, add the `org-x.x.xx/contrib/lisp` directory to the load path in `.spacemacs`:
+#### Contribution packages
+
+1. To load Org contributions, add the `org-x.x.xx/contrib/lisp` directory to the load path in `.spacemacs`:
 
    Example: `(add-to-list 'load-path "~/.emacs.d/private/work/org-8.2.10/contrib/lisp")`
 
-Packages in `contrib` apparently aren't loaded by default; they have to be required in `.spacemacs`:
+2. Packages in `contrib` apparently aren't loaded by default; they have to be required in `.spacemacs`:
 
-Example: `(require 'ox-s5)`
+   Example: `(require 'ox-s5)`
 
 
 ### .spacemacs
