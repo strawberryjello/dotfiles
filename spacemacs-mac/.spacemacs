@@ -1,4 +1,4 @@
-(setq-default dotspacemacs-configuration-layers '(work osx))
+(setq-default dotspacemacs-configuration-layers '(work git))
 
 (add-to-list 'load-path "~/.emacs.d/private/work/org-8.2.10/lisp")
 (add-to-list 'load-path "~/.emacs.d/private/work/org-8.2.10/contrib/lisp")
