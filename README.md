@@ -200,6 +200,10 @@ To install a new version of Org:
 
    Example: `(require 'ox-s5)`
 
+#### Checking the Org version
+
+`M-x org-version` will display the version of Org, as well as the installation path for more recent versions. See the [Org FAQ section on mixed installations](http://orgmode.org/worg/org-faq.html#orgheadline21) for possible errors related to manual installation.
+
 
 ### .spacemacs
 
