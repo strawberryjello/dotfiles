@@ -28,7 +28,7 @@ windows:
       panes:
         -
         - tig
-  - ed: vim
+  - ed:
   - db:
   - lsd:
       root: ~/code/lsd
