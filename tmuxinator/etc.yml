@@ -23,7 +23,7 @@ root: ~/
 
 windows:
   - mp3:
-      root: /Volumes/ZAKI
+      root: ~/Downloads/playlists
       layout: even-horizontal
       panes:
         - 
