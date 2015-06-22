@@ -1,6 +1,6 @@
-# ~/.tmuxinator/mbc.yml
+# ~/.tmuxinator/core.yml
 
-name: mbc
+name: core
 root: ~/code/lsd-core
 
 # Optional tmux socket
