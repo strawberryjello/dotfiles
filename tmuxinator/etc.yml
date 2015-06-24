@@ -23,9 +23,9 @@ root: ~/
 
 windows:
   - mp3:
-      root: ~/Downloads/playlists
-      layout: even-horizontal
+      layout: main-vertical
       panes:
-        - 
-        - 
+        - cd ~/Downloads/playlists
+        - cd '/Users/tina/Downloads/mp3/assorted mp3s'
+        - cd ~/Downloads/mp3/youtube
   - ed:
