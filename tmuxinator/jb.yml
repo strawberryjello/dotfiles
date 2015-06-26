@@ -31,7 +31,7 @@ windows:
   - ed:
   - db:
   - lsd:
-      root: ~/code/lsd
+      root: ~/code/lsd-jb-prod/20141007083922
       # included these since just specifying root causes an error
       layout: even-horizontal
       panes:
