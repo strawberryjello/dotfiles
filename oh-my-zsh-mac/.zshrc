@@ -65,6 +65,9 @@ export EDITOR="vim"
 
 source $ZSH/oh-my-zsh.sh
 
+# rbenv: enable shims and autocompletion
+eval "$(rbenv init -)"
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
