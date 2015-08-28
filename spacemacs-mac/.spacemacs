@@ -18,10 +18,12 @@
  '(ahs-idle-interval 0.25)
  '(ahs-idle-timer 0 t)
  '(ahs-inhibit-face-list nil)
+ '(js-indent-level 2)
  '(org-export-with-toc nil)
  '(ring-bell-function (quote ignore) t)
  '(web-mode-code-indent-offset 2)
- '(web-mode-css-indent-offset 2))
+ '(web-mode-css-indent-offset 2)
+ '(web-mode-markup-indent-offset 2))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
