@@ -17,6 +17,7 @@
  '(ahs-idle-interval 0.25)
  '(ahs-idle-timer 0 t)
  '(ahs-inhibit-face-list nil)
+ '(js-indent-level 2)
  '(ring-bell-function (quote ignore) t)
  '(web-mode-code-indent-offset 2)
  '(web-mode-css-indent-offset 2))
