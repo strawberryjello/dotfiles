@@ -30,6 +30,11 @@ windows:
         - tig
   - ed:
   - db:
+      root: ~/code/dumps
+      layout: even-horizontal
+      panes:
+        -
+        -
   - lsd:
       root: ~/code/lsd-jb-prod/20141007083922
       # included these since just specifying root causes an error
