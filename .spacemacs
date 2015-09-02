@@ -1,8 +1,8 @@
-(setq-default dotspacemacs-configuration-layers '(work))
+(setq-default dotspacemacs-configuration-layers '(work git org))
 
-(add-to-list 'load-path "~/.emacs.d/private/work/org-8.2.10/lisp")
-(add-to-list 'load-path "~/.emacs.d/private/work/org-8.2.10/contrib/lisp")
-(require 'ox-s5)
+;; (add-to-list 'load-path "~/.emacs.d/private/work/org-8.2.10/lisp")
+;; (add-to-list 'load-path "~/.emacs.d/private/work/org-8.2.10/contrib/lisp")
+;; (require 'ox-s5)
 
 (setq-default dotspacemacs-themes '(zenburn))
 
@@ -17,6 +17,7 @@
  '(ahs-idle-interval 0.25)
  '(ahs-idle-timer 0 t)
  '(ahs-inhibit-face-list nil)
+ '(js-indent-level 2)
  '(ring-bell-function (quote ignore) t)
  '(web-mode-code-indent-offset 2)
  '(web-mode-css-indent-offset 2))
