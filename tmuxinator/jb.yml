@@ -23,6 +23,10 @@ startup_window: git
 
 windows:
   - rails:
+      layout: even-horizontal
+      panes:
+        -
+        -
   - git:
       layout: even-horizontal
       panes:
