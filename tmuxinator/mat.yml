@@ -40,7 +40,7 @@ windows:
         -
         -
   - lsd:
-      root: ~/code/lsd
+      root: ~/code/lsd-mat-prod/20120227033915
       # included these since just specifying root causes an error
       layout: even-horizontal
       panes:
