@@ -1,3 +1,5 @@
+dotspacemacs-startup-banner 'doge
+
 (setq-default dotspacemacs-configuration-layers '(work git org))
 
 ;; (add-to-list 'load-path "~/.emacs.d/private/work/org-8.2.10/lisp")
@@ -5,6 +7,10 @@
 ;; (require 'ox-s5)
 
 (setq-default dotspacemacs-themes '(zenburn))
+
+(defun dotspacemacs/init ()
+  (setq-default
+   dotspacemacs-startup-banner 'doge))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
