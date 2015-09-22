@@ -93,7 +93,8 @@ eval "$(rbenv init -)"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias mpl='mplayer -novideo -volume 4 -shuffle -playlist'
+alias mpl='mplayer -novideo -volume 4 -playlist'
+alias mpls='mplayer -novideo -volume 4 -shuffle -playlist'
 alias mpsingle='mplayer -novideo -volume 4'
 
 # the ff is supposed to invoke GUI mode, but it still doesn't work
