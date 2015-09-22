@@ -6,6 +6,7 @@
 
 (set-keyboard-coding-system nil)
 (setq-default dotspacemacs-themes '(wombat))
+(setq-default dotspacemacs-startup-banner 'doge)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
