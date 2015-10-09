@@ -93,9 +93,9 @@ eval "$(rbenv init -)"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias mpl='mplayer -novideo -volume 4 -playlist'
-alias mpls='mplayer -novideo -volume 4 -shuffle -playlist'
-alias mpsingle='mplayer -novideo -volume 4'
+alias mpl='mplayer -novideo -volume 7 -playlist'
+alias mpls='mplayer -novideo -volume 7 -shuffle -playlist'
+alias mpsingle='mplayer -novideo -volume 7'
 
 # the ff is supposed to invoke GUI mode, but it still doesn't work
 alias ec='/usr/local/Cellar/emacs-mac/emacs-24.5-rc3-mac-5.6/bin/emacsclient -c'
