@@ -28,4 +28,5 @@ windows:
         - cd ~/Downloads/playlists
         - cd '/Users/tina/Downloads/mp3/assorted mp3s'
         - cd ~/Downloads/mp3/youtube
+  - zsh:
   - ed:
