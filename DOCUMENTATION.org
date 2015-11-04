@@ -76,7 +76,7 @@ via Homebrew to speed up grep.
 
 Note: Leader key is currently set to =,=.
 
-*** TODO
+*** To do
 
 -  Set up [[http://ctags.sourceforge.net/][exuberant ctags]]
 -  OS X: =brew install ctags=
@@ -193,7 +193,7 @@ This repo contains =.spacemacs= and the private config layers for
 Spacemacs. These files are meant to be symlinked from their expected
 locations (ie, the home directory for =.spacemacs= and
 =.emacs.d/private= for the private config layers). See
-[[https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.md#managing-private-configuration-layers][the
+[[https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org][the
 Spacemacs documentation]] for details about managing an external repo of
 config layers.
 
