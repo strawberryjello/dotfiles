@@ -1,10 +1,10 @@
 * TOC
-- [[#.zshrc][.zshrc]]
-- [[#.vimrc][.vimrc]]
-- [[#.tmux.conf][.tmux.conf]]
+- [[#zshrc][.zshrc]]
+- [[#vimrc][.vimrc]]
+- [[#tmux-conf][.tmux.conf]]
 - [[#tmuxinator][tmuxinator]]
-- [[#.bashrc-aliases][.bashrc-aliases]]
-- [[#.Xmodmap][.Xmodmap]]
+- [[#bashrc-aliases][.bashrc-aliases]]
+- [[#xmodmap][.Xmodmap]]
 - [[#spacemacs-setup][Spacemacs setup]]
 
 * .zshrc
