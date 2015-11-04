@@ -1,7 +1,7 @@
 * TOC
 - [[#zshrc][.zshrc]]
 - [[#vimrc][.vimrc]]
-- [[#tmux.conf][.tmux.conf]]
+- [[#tmux][tmux]]
 - [[#tmuxinator][tmuxinator]]
 - [[#bashrc-aliases][.bashrc-aliases]]
 - [[#xmodmap][.Xmodmap]]
@@ -126,7 +126,7 @@ To install a new color scheme:
 -  [[http://learnvimscriptthehardway.stevelosh.com/][Learn Vimscript the
    Hard Way]]
 
-* .tmux.conf
+* tmux
 
 Configuration for tmux. Work in progress.
 
