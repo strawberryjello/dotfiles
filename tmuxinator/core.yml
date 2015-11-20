@@ -23,8 +23,9 @@ startup_window: git
 
 windows:
   - rails:
-      layout: even-horizontal
+      layout: main-vertical
       panes:
+        -
         -
         -
   - git:
