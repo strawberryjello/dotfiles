@@ -49,7 +49,9 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/Users/tina/.rbenv/shims:/Users/tina/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin:/Users/tina/bin:/usr/local/mysql/bin"
+PYENV_ROOT="$HOME/.pyenv"
+
+export PATH="$PYENV_ROOT/bin:/Users/tina/.rbenv/shims:/Users/tina/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin:/Users/tina/bin:/usr/local/mysql/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # required by Rails 2.3.8
@@ -67,6 +69,9 @@ source $ZSH/oh-my-zsh.sh
 
 # rbenv: enable shims and autocompletion
 eval "$(rbenv init -)"
+
+# pyenv: enable shims
+eval "$(pyenv init -)"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
