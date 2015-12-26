@@ -24,7 +24,9 @@
  '(ring-bell-function (quote ignore) t)
  '(web-mode-code-indent-offset 2)
  '(web-mode-css-indent-offset 2)
- '(web-mode-markup-indent-offset 2))
+ '(web-mode-markup-indent-offset 2)
+ '(web-mode-enable-auto-closing t)
+ '(web-mode-enable-auto-pairing t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
