@@ -73,6 +73,10 @@ eval "$(rbenv init -)"
 # pyenv: enable shims
 eval "$(pyenv init -)"
 
+# nvm: node version manager
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
