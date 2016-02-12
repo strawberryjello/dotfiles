@@ -13,9 +13,13 @@
 (defvar work-packages
   '(
     ;; package works go here
+    ac-js2
+    emmet-mode
     haml-mode
     js2-mode
+    js2-refactor
     markdown-mode
+    skewer-mode
     web-mode
     )
   "List of all packages to install and/or initialize. Built-in packages
@@ -34,14 +38,26 @@ which require an initialization must be listed explicitly in the list.")
 ;; For more info on `use-package', see readme:
 ;; https://github.com/jwiegley/use-package
 
+(defun work/init-ac-js2 ()
+  (use-package ac-js2))
+
+(defun work/init-emmet-mode ()
+  (use-package emmet-mode))
+
 (defun work/init-haml-mode ()
   (use-package haml-mode))
 
 (defun work/init-js2-mode ()
   (use-package js2-mode))
 
+(defun work/init-js2-refactor ()
+  (use-package js2-refactor))
+
 (defun work/init-markdown-mode ()
   (use-package markdown-mode))
+
+(defun work/init-skewer-mode ()
+  (use-package skewer-mode))
 
 (defun work/init-web-mode ()
   (use-package web-mode))
