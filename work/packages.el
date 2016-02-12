@@ -14,6 +14,7 @@
   '(
     ;; package works go here
     haml-mode
+    js2-mode
     markdown-mode
     web-mode
     )
@@ -35,6 +36,9 @@ which require an initialization must be listed explicitly in the list.")
 
 (defun work/init-haml-mode ()
   (use-package haml-mode))
+
+(defun work/init-js2-mode ()
+  (use-package js2-mode))
 
 (defun work/init-markdown-mode ()
   (use-package markdown-mode))
