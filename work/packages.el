@@ -15,6 +15,7 @@
     ;; package works go here
     ac-js2
     emmet-mode
+    flycheck
     haml-mode
     js2-mode
     js2-refactor
@@ -43,6 +44,10 @@ which require an initialization must be listed explicitly in the list.")
 
 (defun work/init-emmet-mode ()
   (use-package emmet-mode))
+
+(defun work/init-flycheck ()
+  (use-package flycheck)
+  (global-flycheck-mode))
 
 (defun work/init-haml-mode ()
   (use-package haml-mode))
