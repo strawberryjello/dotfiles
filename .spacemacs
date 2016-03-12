@@ -42,6 +42,7 @@ values."
    ;; configuration in `dotspacemacs/config'.
    dotspacemacs-additional-packages
    '(
+     haml-mode
      web-mode
      )
    ;; A list of packages and/or extensions that will not be install and loaded.
