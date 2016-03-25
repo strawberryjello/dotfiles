@@ -43,6 +43,8 @@ values."
    dotspacemacs-additional-packages
    '(
      haml-mode
+     js2-mode
+     markdown-mode
      web-mode
      )
    ;; A list of packages and/or extensions that will not be install and loaded.
