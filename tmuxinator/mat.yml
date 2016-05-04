@@ -35,7 +35,7 @@ windows:
         - tig
   - ed:
   - db:
-      root: ~/code/dumps
+      root: ~/code/dumps/lsd-mat
       layout: even-horizontal
       panes:
         -
