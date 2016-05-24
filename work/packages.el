@@ -20,6 +20,7 @@
     js2-mode
     js2-refactor
     markdown-mode
+    selectric-mode
     skewer-mode
     web-mode
     )
@@ -60,6 +61,9 @@ which require an initialization must be listed explicitly in the list.")
 
 (defun work/init-markdown-mode ()
   (use-package markdown-mode))
+
+(defun work/init-selectric-mode ()
+  (use-package selectric-mode))
 
 (defun work/init-skewer-mode ()
   (use-package skewer-mode))
