@@ -51,7 +51,7 @@ plugins=(git)
 
 PYENV_ROOT="$HOME/.pyenv"
 
-export PATH="$PYENV_ROOT/bin:/Users/tina/.rbenv/shims:/Users/tina/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin:/Users/tina/bin:/usr/local/mysql/bin"
+export PATH="$PYENV_ROOT/bin:/Users/tina/.rbenv/shims:/Users/tina/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin:/Users/tina/bin:/usr/local/mysql/bin:$HOME/apps/phantomjs-1.9.8-macosx/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # required by Rails 2.3.8
