@@ -18,7 +18,7 @@
     flycheck
     haml-mode
     js2-mode
-    js2-refactor
+    ;; js2-refactor -> deletes yasnippet?
     markdown-mode
     selectric-mode
     skewer-mode
