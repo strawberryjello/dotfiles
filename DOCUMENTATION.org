@@ -195,3 +195,23 @@ Create a symlink for =.spacemacs= in =/home/<user>=.
 Note: For OS X, symlink =spacemacs-mac/.spacemacs=.
 
 Example: =ln -sv dotfiles/.spacemacs=
+
+** Private config layer: Work
+
+The =work= directory contains a config layer with its own =packages.el= and =extensions.el=. It's currently configured for Rails development.
+
+*** Setup
+
+1. Create a symlink for =work= in =.emacs.d/private=.
+
+  Example: =ln -sv dotfiles/work=
+
+2. Add =work= to the list of config layers in =.spacemacs=.
+
+  Example: =(setq-default dotspacemacs-configuration-layers '(work))=
+
+3. Spacemacs will automatically download and install any new packages after startup. Make sure to define a =work/init-<package>= function for each package in =packages.el=. If there are no customizations to be made, simply calling =(use-package <package>)= within the function is enough. (See [[https://github.com/jwiegley/use-package][use-package]] for more details on usage.)
+
+  Example:
+
+  =(defun work/init-haml-mode ()      (use-package haml-mode))=
