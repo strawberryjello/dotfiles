@@ -212,6 +212,4 @@ The =work= directory contains a config layer with its own =packages.el= and =ext
 
 3. Spacemacs will automatically download and install any new packages after startup. Make sure to define a =work/init-<package>= function for each package in =packages.el=. If there are no customizations to be made, simply calling =(use-package <package>)= within the function is enough. (See [[https://github.com/jwiegley/use-package][use-package]] for more details on usage.)
 
-  Example:
-
-  =(defun work/init-haml-mode ()      (use-package haml-mode))=
+  Example: =(defun work/init-haml-mode () (use-package haml-mode))=
