@@ -53,13 +53,18 @@ plugins=(git)
 
 # User configuration
 
-export PATH=$HOME/.rbenv/bin:$HOME/bin:/usr/local/bin:$PATH
+PYENV_ROOT="$HOME/.pyenv"
+
+export PATH=$PYENV_ROOT/bin:$HOME/.rbenv/bin:$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
 
 # rbenv: enable shims and autocompletion
 eval "$(rbenv init -)"
+
+# pyenv: enable shims
+eval "$(pyenv init -)"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
