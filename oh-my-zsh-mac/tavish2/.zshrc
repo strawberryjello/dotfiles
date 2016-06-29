@@ -55,7 +55,7 @@ plugins=(git)
 
 PYENV_ROOT="$HOME/.pyenv"
 
-export PATH=$PYENV_ROOT/bin:$HOME/.rbenv/bin:$HOME/bin:/usr/local/bin:$PATH
+export PATH=$PYENV_ROOT/bin:$HOME/.rbenv/bin:$HOME/bin:/usr/local/bin:$PATH:/usr/local/mysql/bin
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
