@@ -91,6 +91,6 @@ eval "$(pyenv init -)"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias mpl='mplayer -novideo -volume 10 -playlist'
-alias mpls='mplayer -novideo -volume 10 -shuffle -playlist'
-alias mpsingle='mplayer -novideo -volume 10'
+alias mpl='mplayer -novideo -volume 7 -playlist'
+alias mpls='mplayer -novideo -volume 7 -shuffle -playlist'
+alias mpsingle='mplayer -novideo -volume 7'
