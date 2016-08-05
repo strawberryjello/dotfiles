@@ -35,6 +35,7 @@ values."
      ;; spell-checking
      ;; syntax-checking
      ;; version-control
+     (colors :variables colors-enable-nyan-cat-progress-bar t)
      ;;
      ;; own layers
      work
