@@ -48,3 +48,4 @@
 
 (package! haml-mode)
 (package! org-roam)
+(package! indium)
